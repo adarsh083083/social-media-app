@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "706303174263",
+    "project_id": "socialblox-95604",
+    "storage_bucket": "socialblox-95604.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706303174263:android:5adf3133b479eeaea40872",
+        "android_client_info": {
+          "package_name": "com.socialblox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706303174263-96ih9dd17jllsk3e5j4tq2bm61ed9pd8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzFn5pgkq8NyRiwZALIIBkL_nYo_yyCmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706303174263-96ih9dd17jllsk3e5j4tq2bm61ed9pd8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

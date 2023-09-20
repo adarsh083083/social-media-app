@@ -1,0 +1,82 @@
+const {Constant} = require('.');
+// FONTS SIZE
+const FONT_SIZE_9 = Constant.CHANGE_BY_MOBILE_DPI(9);
+const FONT_SIZE_10 = Constant.CHANGE_BY_MOBILE_DPI(10);
+const FONT_SIZE_11 = Constant.CHANGE_BY_MOBILE_DPI(11);
+const FONT_SIZE_12 = Constant.CHANGE_BY_MOBILE_DPI(12);
+const FONT_SIZE_13 = Constant.CHANGE_BY_MOBILE_DPI(13);
+const FONT_SIZE_14 = Constant.CHANGE_BY_MOBILE_DPI(14);
+const FONT_SIZE_15 = Constant.CHANGE_BY_MOBILE_DPI(15);
+const FONT_SIZE_16 = Constant.CHANGE_BY_MOBILE_DPI(16);
+const FONT_SIZE_17 = Constant.CHANGE_BY_MOBILE_DPI(17);
+const FONT_SIZE_18 = Constant.CHANGE_BY_MOBILE_DPI(18);
+const FONT_SIZE_19 = Constant.CHANGE_BY_MOBILE_DPI(19);
+const FONT_SIZE_20 = Constant.CHANGE_BY_MOBILE_DPI(20);
+const FONT_SIZE_21 = Constant.CHANGE_BY_MOBILE_DPI(21);
+const FONT_SIZE_22 = Constant.CHANGE_BY_MOBILE_DPI(22);
+const FONT_SIZE_23 = Constant.CHANGE_BY_MOBILE_DPI(23);
+const FONT_SIZE_24 = Constant.CHANGE_BY_MOBILE_DPI(24);
+const FONT_SIZE_25 = Constant.CHANGE_BY_MOBILE_DPI(25);
+const FONT_SIZE_26 = Constant.CHANGE_BY_MOBILE_DPI(26);
+const FONT_SIZE_27 = Constant.CHANGE_BY_MOBILE_DPI(27);
+const FONT_SIZE_28 = Constant.CHANGE_BY_MOBILE_DPI(28);
+const FONT_SIZE_29 = Constant.CHANGE_BY_MOBILE_DPI(29);
+const FONT_SIZE_30 = Constant.CHANGE_BY_MOBILE_DPI(30);
+const FONT_SIZE_31 = Constant.CHANGE_BY_MOBILE_DPI(31);
+const FONT_SIZE_32 = Constant.CHANGE_BY_MOBILE_DPI(32);
+const FONT_SIZE_33 = Constant.CHANGE_BY_MOBILE_DPI(33);
+const FONT_SIZE_34 = Constant.CHANGE_BY_MOBILE_DPI(34);
+const FONT_SIZE_35 = Constant.CHANGE_BY_MOBILE_DPI(35);
+
+// FONTS STYLE
+const BOLD = 'Poppins-Bold';
+const LIGHT = 'Poppins-Light';
+const MEDIUM = 'Poppins-Medium';
+const REGULAR = 'Poppins-Regular';
+const SEMIBOLD = 'Poppins-SemiBold';
+
+const LATO_BOLD = 'Lato-Bold';
+const LATO_LIGHT = 'Lato-Light';
+const LATO = 'Lato-Medium';
+const LATO_REGULAR = 'Lato-Regular';
+const LATO_SEMIBOLD = 'Lato-SemiBold';
+
+export {
+  FONT_SIZE_9,
+  FONT_SIZE_10,
+  FONT_SIZE_11,
+  FONT_SIZE_12,
+  FONT_SIZE_13,
+  FONT_SIZE_14,
+  FONT_SIZE_15,
+  FONT_SIZE_16,
+  FONT_SIZE_17,
+  FONT_SIZE_18,
+  FONT_SIZE_19,
+  FONT_SIZE_20,
+  FONT_SIZE_21,
+  FONT_SIZE_22,
+  FONT_SIZE_23,
+  FONT_SIZE_24,
+  FONT_SIZE_25,
+  FONT_SIZE_26,
+  FONT_SIZE_27,
+  FONT_SIZE_28,
+  FONT_SIZE_29,
+  FONT_SIZE_30,
+  FONT_SIZE_31,
+  FONT_SIZE_32,
+  FONT_SIZE_33,
+  FONT_SIZE_34,
+  FONT_SIZE_35,
+  BOLD,
+  LIGHT,
+  MEDIUM,
+  REGULAR,
+  SEMIBOLD,
+  LATO_BOLD,
+  LATO_LIGHT,
+  LATO,
+  LATO_REGULAR,
+  LATO_SEMIBOLD,
+};

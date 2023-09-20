@@ -1,0 +1,227 @@
+import { StyleSheet } from 'react-native';
+import { DIMENSIONS } from '../../styles';
+import { moderateScale, moderateVerticalScale } from 'react-native-size-matters';
+import { Constant, Colors, Fonts } from '../../global';
+import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../../global/constant';
+
+const styles = StyleSheet.create({
+  mainContainer: {
+    flex: 1,
+    height: '100%',
+  },
+  txtWrapper: {
+    marginTop: DIMENSIONS.HEIGHT * 0.05,
+    paddingHorizontal: Constant.CHANGE_BY_MOBILE_DPI(20),
+    flexDirection: 'row',
+    // justifyContent: 'space-between',
+  },
+  backBtn: {
+    width: Constant.CHANGE_BY_MOBILE_DPI(38),
+    height: Constant.CHANGE_BY_MOBILE_DPI(38),
+    marginBottom: moderateScale(20),
+  },
+  backArrow: {
+    width: Constant.CHANGE_BY_MOBILE_DPI(38),
+    height: Constant.CHANGE_BY_MOBILE_DPI(38),
+    resizeMode: 'cover',
+  },
+  bigHeading: {
+    color: Colors.WHITE,
+    fontSize: Fonts.FONT_SIZE_35,
+    fontFamily: Fonts.BOLD,
+    paddingHorizontal: Constant.CHANGE_BY_MOBILE_DPI(20),
+    marginBottom: Constant.CHANGE_BY_MOBILE_DPI(30),
+    marginTop: Constant.CHANGE_BY_MOBILE_DPI(20),
+  },
+  mainHeading: {
+    color: Colors.WHITE,
+    fontSize: Fonts.FONT_SIZE_20,
+    marginBottom: moderateVerticalScale(20),
+    fontFamily: Fonts.BOLD,
+    textAlign: 'center',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+  },
+  subHeading: {
+    color: Colors.WHITE,
+    fontSize: Fonts.FONT_SIZE_14,
+    fontFamily: Fonts.SEMIBOLD,
+  },
+  para: {
+    color: Colors.WHITE,
+    fontSize: Fonts.FONT_SIZE_12,
+    fontFamily: Fonts.REGULAR,
+  },
+  mt20: {
+    marginTop: Constant.CHANGE_BY_MOBILE_DPI(20),
+  },
+  grayPara: {
+    color: Colors.MEDIUM_GRAY,
+    fontSize: Fonts.FONT_SIZE_12,
+    fontFamily: Fonts.SEMIBOLD,
+  },
+  challengersInfo: {
+    color: Colors.WHITE,
+    fontSize: Fonts.FONT_SIZE_11,
+    fontFamily: Fonts.BOLD,
+  },
+  w80: {
+    width: '79%',
+  },
+  infoCard: {
+    width: '90%',
+    alignSelf: 'center',
+    borderRadius: Constant.CHANGE_BY_MOBILE_DPI(14),
+    backgroundColor: Colors.DARK_GRAY,
+    position: 'relative',
+    top: Constant.CHANGE_BY_MOBILE_DPI(-20),
+    padding: Constant.CHANGE_BY_MOBILE_DPI(14),
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'flex-start',
+  },
+  challengeView: {
+    width: '100%',
+    height: SCREEN_HEIGHT - Constant.CHANGE_BY_MOBILE_DPI(120),
+    resizeMode: 'cover',
+  },
+  profileBig: {
+    width: Constant.CHANGE_BY_MOBILE_DPI(50),
+    height: Constant.CHANGE_BY_MOBILE_DPI(50),
+    borderRadius: Constant.CHANGE_BY_MOBILE_DPI(50),
+    borderWidth: 2,
+    borderColor: Colors.PURPLE,
+    padding: 1,
+    backgroundColor: Colors.DARK_GRAY,
+    top: Constant.CHANGE_BY_MOBILE_DPI(-20),
+  },
+  profileSmall: {
+    width: Constant.CHANGE_BY_MOBILE_DPI(40),
+    height: Constant.CHANGE_BY_MOBILE_DPI(40),
+    borderRadius: Constant.CHANGE_BY_MOBILE_DPI(50),
+    borderWidth: 2,
+    borderColor: Colors.PURPLE,
+    padding: 1,
+    position: 'relative',
+    left: Constant.CHANGE_BY_MOBILE_DPI(-14),
+    backgroundColor: Colors.DARK_GRAY,
+    zIndex: 2,
+  },
+  imageStyle: {
+    width: '100%',
+    height: '100%',
+    resizeMode: 'cover',
+    borderRadius: Constant.CHANGE_BY_MOBILE_DPI(50),
+    borderWidth: 1,
+    borderColor: Colors.DARK_GRAY,
+  },
+  amoutRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    columnGap: Constant.CHANGE_BY_MOBILE_DPI(10),
+    marginTop: Constant.CHANGE_BY_MOBILE_DPI(10),
+  },
+  logoIcon: {
+    width: Constant.CHANGE_BY_MOBILE_DPI(32),
+    height: Constant.CHANGE_BY_MOBILE_DPI(32),
+    resizeMode: 'contain',
+  },
+  challengeDescContainer: {
+    paddingHorizontal: Constant.CHANGE_BY_MOBILE_DPI(20),
+    paddingBottom: Constant.CHANGE_BY_MOBILE_DPI(40),
+  },
+  circleShape: {
+    width: Constant.CHANGE_BY_MOBILE_DPI(8),
+    height: Constant.CHANGE_BY_MOBILE_DPI(8),
+    backgroundColor: Colors.WHITE,
+    borderRadius: Constant.CHANGE_BY_MOBILE_DPI(50),
+  },
+  voteContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    backgroundColor: Colors.DARK_GRAY,
+    paddingVertical: Constant.CHANGE_BY_MOBILE_DPI(10),
+    paddingHorizontal: Constant.CHANGE_BY_MOBILE_DPI(20),
+  },
+  imageWrapper: {
+    width: Constant.CHANGE_BY_MOBILE_DPI(54),
+    height: Constant.CHANGE_BY_MOBILE_DPI(54),
+    resizeMode: 'contain',
+    backgroundColor: Colors.BLASTIC_SEA,
+    padding: Constant.CHANGE_BY_MOBILE_DPI(10),
+    borderRadius: Constant.CHANGE_BY_MOBILE_DPI(50),
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  voteCounts: {
+    width: SCREEN_WIDTH - Constant.CHANGE_BY_MOBILE_DPI(180),
+    alignItems: 'center',
+  },
+  voteIcon: {
+    width: '70%',
+    height: '70%',
+    resizeMode: 'contain',
+  },
+  progressWrapper: {
+    width: '100%',
+    backgroundColor: Colors.LIGHT_GRAY,
+    borderRadius: Constant.CHANGE_BY_MOBILE_DPI(50),
+    marginTop: Constant.CHANGE_BY_MOBILE_DPI(5),
+  },
+  progressBar: {
+    paddingVertical: Constant.CHANGE_BY_MOBILE_DPI(6),
+    backgroundColor: Colors.PURPLE_COLOR,
+    borderRadius: Constant.CHANGE_BY_MOBILE_DPI(50),
+  },
+  headerContainer: {
+    position: 'absolute',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    top: 0,
+    zIndex: 2,
+    width: '100%',
+    paddingHorizontal: Constant.CHANGE_BY_MOBILE_DPI(20),
+    paddingVertical: Constant.CHANGE_BY_MOBILE_DPI(10),
+  },
+  headerImge: {
+    width: Constant.CHANGE_BY_MOBILE_DPI(40),
+    height: Constant.CHANGE_BY_MOBILE_DPI(40),
+    borderRadius: Constant.CHANGE_BY_MOBILE_DPI(50),
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  screenName: {
+    color: Colors.WHITE,
+    fontSize: Fonts.FONT_SIZE_18,
+    fontFamily: Fonts.BOLD,
+  },
+  optionContainer: {
+    position: 'absolute',
+    top: Constant.CHANGE_BY_MOBILE_DPI(55),
+    right: Constant.CHANGE_BY_MOBILE_DPI(20),
+    backgroundColor: Colors.DARK_GRAY,
+    zIndex: 2,
+    borderRadius: Constant.CHANGE_BY_MOBILE_DPI(10),
+  },
+  optionItem: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingVertical: Constant.CHANGE_BY_MOBILE_DPI(14),
+    paddingHorizontal: Constant.CHANGE_BY_MOBILE_DPI(20),
+    columnGap: Constant.CHANGE_BY_MOBILE_DPI(40),
+  },
+  optionIcon: {
+    width: Constant.CHANGE_BY_MOBILE_DPI(20),
+    height: Constant.CHANGE_BY_MOBILE_DPI(20),
+    resizeMode: 'contain',
+  },
+  borderBottom: {
+    borderBottomWidth: 1,
+    borderBlockColor: Colors.BLASTIC_SEA,
+  },
+});
+
+export default styles;

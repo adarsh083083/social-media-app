@@ -1,0 +1,12 @@
+// export { default as SplashScreen } from '../screens/Splash/SplashScreen';
+// export { default as OnBoarding } from '../screens/OnBoarding/OnBoarding';
+// export { default as VerifySeedPhrase } from '../screens/OnBoarding/VerifySeedPhrase/VerifySeedPhrase';
+// export { default as YourSeedPhrase } from '../screens/OnBoarding/YourSeedPhrase/YourSeedPhrase';
+// export { default as AuthenticatorApp } from '../screens/OnBoarding/AuthenticatorApp/AuthenticatorApp';
+// export { default as AuthenticatorManually } from '../screens/OnBoarding/AuthenticatorManually/AuthenticatorManually';
+// export { default as AddSblx } from '../screens/AddSblx/AddSblx';
+// export { default as ChallengeApproved } from '../screens/ChallengeApproved/ChallengeApproved';
+// export { default as ChallengeDisapproved } from '../screens/ChallengeApproved/ChallengeDisapproved';
+// export { default as Profile } from '../screens/Auth/Profile/Profile';
+// export { default as CreateChallenge } from './CreateChallenge/CreateChallenge/CreateChallenge';
+// export { default as AddRequirements } from './CreateChallenge/AddRequirements/AddRequirements';
